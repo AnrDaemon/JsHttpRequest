@@ -1,10 +1,10 @@
 {
     "name": "dklab/jshttprequest",
-    "type": "project",
+    "type": "library",
     "description": "JsHttpRequest library",
-    "license" : "LGPL-2.1",
-    "require":{
-        "php":">=5.2"
+    "license": ["LGPL-2.1-or-later"],
+    "require": {
+        "php": ">=5.2"
     },
     "extra": {
         "branch-alias": {
