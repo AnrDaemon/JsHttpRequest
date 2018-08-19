@@ -1,10 +1,16 @@
 {
-    "name": "dklab/jshttprequest",
+    "name": "anrdaemon/jshttprequest",
     "type": "library",
     "description": "JsHttpRequest library",
     "license": ["LGPL-2.1-or-later"],
     "require": {
         "php": ">=5.2"
+    },
+    "conflict": {
+        "dklab/jshttprequest": "*"
+    },
+    "replace": {
+        "dklab/jshttprequest": "*"
     },
     "extra": {
         "branch-alias": {
